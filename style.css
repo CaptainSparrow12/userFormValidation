@@ -1,0 +1,53 @@
+.main {
+  background-color: hsl(34, 92%, 46%);
+  border-radius: 5px;
+  text-align: center;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  font-size: 17px;
+  padding: 8px;
+}
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.formdesign {
+  font-size: 20px;
+}
+.formdesign input {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.formerror {
+  color: red;
+}
+.btn {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  margin: 22px 10px;
+}
+input[type="submit"] {
+  background-color: #4daea1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+  /* text-align: center; */
+  justify-content: center;
+}
+input[type="submit"]:hover {
+  background-color: #4caf84;
+}

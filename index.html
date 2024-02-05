@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript form validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main">
+      <h1>User Contact Form</h1>
+      <p>Please fill all the texts in the Field</p>
+    </header>
+    <div class="container">
+      <form
+        action="/Form_Validation_DOM/welcome.html"
+        name="myForm"
+        onsubmit="return validateForm()"
+      >
+        <div class="formdesign" id="name">
+          <p>Name:</p>
+          <input type="text" name="fname" required />
+          <b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="email">
+          <p>Email:</p>
+          <input type="email" name="femail" required />
+          <b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="phone">
+          <p>Phone:</p>
+          <input type="phone" name="fphone" required />
+          <b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="pass">
+          <p>Password:</p>
+          <input type="password" name="fpass" required />
+          <b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="cpass">
+          <p>Confirm Password:</p>
+          <input
+            type="password"
+            name="fcpass"
+            required
+            placeholder=" Confirm Password:"
+          />
+          <b><span class="formerror"></span></b>
+        </div>
+
+        <input class="btn" type="submit" value="submit" />
+      </form>
+    </div>
+
+    <script src="from.js"></script>
+  </body>
+</html>
